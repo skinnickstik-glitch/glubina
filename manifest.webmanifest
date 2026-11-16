@@ -1,0 +1,25 @@
+{
+ "name": "Глубина — бурение скважин и септики",
+ "short_name": "Глубина",
+ "description": "Смета на скважину и септик за минуту и выезд инженера",
+ "start_url": "./#/",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#f4f3f0",
+ "theme_color": "#0e1b2a",
+ "lang": "ru",
+ "icons": [
+  {
+   "src": "icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
+   "src": "icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}
