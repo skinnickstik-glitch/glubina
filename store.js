@@ -15,7 +15,7 @@ class LocalAdapter {
   constructor() { this.dbp = null; }
   db() {
     if (!this.dbp) this.dbp = new Promise((res, rej) => {
-      const r = indexedDB.open("wells-demo", 1);
+      const r = indexedDB.open(CFG.dbName || "app-demo", 1);
       r.onupgradeneeded = () => {
         const d = r.result;
         d.createObjectStore("requests", { keyPath: "id" });

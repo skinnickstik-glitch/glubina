@@ -29,6 +29,7 @@ window.APP_CONFIG = {
     line: "#e3e0da",
   },
 
+  dbName: "wells-demo",          // имя базы/префикс ключей (уникально для каждой копии)
   adminPin: "1234",          // PIN кабинета (в демо)
   storage: "local",          // "local" — всё в браузере (демо); "remote" — свой сервер (server/)
   apiBase: "/api",
